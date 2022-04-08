@@ -1,4 +1,3 @@
-# Time-series-forecasting-Covid-19-in-Brazil
 # Prevendo novos casos e mortes diárias por covid-19 no Brasil com ML
 ## 1. Introdução
 A pandemia de covid-19 foi muito avassaladora em termos humanitários. Especificamente, no Brasil, perdemos em torno de <b>660 mil pessoas</b>. O vírus foi uma surpresa absurdamente inesperada, fazendo com que houvesse uma certa demora na arquitetação de planos de combate ao Coronavírus e, assim, perdas inimagináveis até então se concretizaram.

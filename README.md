@@ -2,12 +2,20 @@
 ## 1. Introdução
 A pandemia de covid-19 foi muito avassaladora em termos humanitários. Especificamente, no Brasil, perdemos em torno de <b>660 mil pessoas</b>. O vírus foi uma surpresa absurdamente inesperada, fazendo com que houvesse uma certa demora na arquitetação de planos de combate ao Coronavírus e, assim, perdas inimagináveis até então se concretizaram.
 
-<img src = "https://img.freepik.com/vetores-gratis/fundo-branco-da-celula-do-virus-covid-19-surto-de-coronavirus-em-2019xdxa_186616-273.jpg" style="width:600px;margin-bottom:15px">
+<p align="center">
+
+<img src = "https://img.freepik.com/vetores-gratis/fundo-branco-da-celula-do-virus-covid-19-surto-de-coronavirus-em-2019xdxa_186616-273.jpg" style="width:500px;margin-bottom:15px">
+    
+<p>    
 
 No entanto, o mundo correu atrás das vacinas e hoje, graças à ciência, <b>os casos de covid-19 estão diminuindo cada vez mais</b>, o que gera esperança em um futuro melhor para a raça humana.
 
-![Novos_casos](https://user-images.githubusercontent.com/93550626/161409341-30b90a01-3a52-4c24-8a64-586cb923f275.png)
+<p align="center">    
 
+<img src = "https://user-images.githubusercontent.com/93550626/161409341-30b90a01-3a52-4c24-8a64-586cb923f275.png" width = 900 height = 400 >    
+
+<p>    
+    
 Nesse sentido, como uma técnica de prevenção contra o Coranavírus, a <b>previsão de novos casos de covid-19 utilizando Machine Learning</b> se torna muito relevante, uma vez que permite os sistemas de saúde se adaptarem ao que virá.
 
 ## 2. Objetivos
@@ -106,60 +114,91 @@ Brazil.isnull().sum()/len(Brazil["date"])
 Com base do dataset resultante, foram feitos vários gráficos a fim de analisar o comportamento dos dados.
 
 #### Mapa de calor para a matriz de correlação entre as variáveis
+    
+<p align="center">    
 
-![download (21)](https://user-images.githubusercontent.com/93550626/161410648-a55cbaf3-a51e-463a-a7fd-6866a1ebc548.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161410648-a55cbaf3-a51e-463a-a7fd-6866a1ebc548.png" width = 700 height = 500 >    
+
+<p>      
 
 * Correlação muito forte entre total de casos (cumulativo) e total de mortes (cumulativo)
 * Correlação forte entre novos casos (diário) e casos ativos
 * Correlação moderada entre novos casos (diário) e novas mortes (diário)
 
 #### Relação total de casos (cumulativo) e total de mortes (cumulativo)
+    
+<p align="center">    
 
-![download (22)](https://user-images.githubusercontent.com/93550626/161410703-fa2c3115-c9a8-4c37-a40a-54f545cfc6eb.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161410703-fa2c3115-c9a8-4c37-a40a-54f545cfc6eb.png" width = 650 height = 500 >    
+
+<p>       
 
 #### Novos casos (diário) e casos ativos
+    
+<p align="center">    
 
-![download (23)](https://user-images.githubusercontent.com/93550626/161410802-15169b91-2328-4e56-982e-0ff44623a529.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161410802-15169b91-2328-4e56-982e-0ff44623a529.png" width = 650 height = 500 >    
+
+<p>     
 
 #### Novos casos (diário) e Novas mortes (diário)
+    
+<p align="center">    
 
-![download (24)](https://user-images.githubusercontent.com/93550626/161410821-4ff724a4-e211-4a38-b199-9d5746711c4b.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161410821-4ff724a4-e211-4a38-b199-9d5746711c4b.png" width = 650 height = 500 >    
+
+<p>      
 
 Depois disso, começamos a analisar as variáveis individualmente.
 
 #### Total de casos (cumulativo)
+    
+<p align="center">    
 
-![download (25)](https://user-images.githubusercontent.com/93550626/161410896-5700ec6b-a36b-42f1-bff1-b27d0ea47f16.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161410896-5700ec6b-a36b-42f1-bff1-b27d0ea47f16.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161410898-46fb72b6-024c-40c3-bf54-67c475364974.png" width = 650 height = 500 >     
 
-![download (26)](https://user-images.githubusercontent.com/93550626/161410898-46fb72b6-024c-40c3-bf54-67c475364974.png)
-
+<p>      
+    
 * Como a variável é cumulativa, esse gráfico é estritamente crescente.
 
 #### Novos casos (diário)
+    
+<p align="center">    
 
-![1](https://user-images.githubusercontent.com/93550626/161411011-537ca593-0c61-4e07-8dd5-36e2db0083c2.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411011-537ca593-0c61-4e07-8dd5-36e2db0083c2.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411015-28e7b811-b0e4-4bfd-a25e-726c1be441ed.png" width = 900 height = 400 >     
 
-![2](https://user-images.githubusercontent.com/93550626/161411015-28e7b811-b0e4-4bfd-a25e-726c1be441ed.png)
+<p>    
 
 * Graças ao avanço da vacinação no Brasil, o número de novos casos de covid-19 vem caindo...
 
 #### Casos ativos
+    
+<p align="center">    
 
-![3](https://user-images.githubusercontent.com/93550626/161411034-c824c9dc-3d3b-4fcf-8c6f-db958b0227bc.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411034-c824c9dc-3d3b-4fcf-8c6f-db958b0227bc.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411040-16b2cb15-1297-4abc-aef1-833374597649.png" width = 900 height = 400 >     
 
-![4](https://user-images.githubusercontent.com/93550626/161411040-16b2cb15-1297-4abc-aef1-833374597649.png)
+<p>      
 
 #### Total de mortes (cumulativo)
+    
+<p align="center">    
 
-![5](https://user-images.githubusercontent.com/93550626/161411045-d98c462b-1dcc-484d-9ccb-7cd8e082788d.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411045-d98c462b-1dcc-484d-9ccb-7cd8e082788d.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411052-3688d71d-e2fc-4a36-8971-435d8d9e04c7.png" width = 650 height = 500 >     
 
-![6](https://user-images.githubusercontent.com/93550626/161411052-3688d71d-e2fc-4a36-8971-435d8d9e04c7.png)
+<p>    
 
 #### Novas mortes (diário)
+    
+<p align="center">    
 
-![7](https://user-images.githubusercontent.com/93550626/161411056-764710ed-2f4c-411b-9b52-e3df2d3fd52e.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411056-764710ed-2f4c-411b-9b52-e3df2d3fd52e.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411061-2c507b4f-c6a9-4e8c-b94c-b6575c54d18e.png" width = 900 height = 400 >     
 
-![8](https://user-images.githubusercontent.com/93550626/161411061-2c507b4f-c6a9-4e8c-b94c-b6575c54d18e.png)
+<p>       
 
 * Perdemos muitas pessoas e com certeza não queremos perder mais! Nesse caso, os dados estão caminhando ao nosso favor!
 
@@ -213,16 +252,28 @@ Agora é só plotar as previsões!!!
 # 4. Resultados
 
 ## 4.1 Novos casos (diário)
+    
+<p align="center">    
 
-![Novos_casos_forecast](https://user-images.githubusercontent.com/93550626/161411681-e7029bcd-24ec-49f7-b9a8-97ebb108122c.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411681-e7029bcd-24ec-49f7-b9a8-97ebb108122c.png" width = 900 height = 400 >     
+
+<p>     
 
 ## 4.2 Casos ativos
+    
+<p align="center">    
 
-![Casos_ativos_forecast](https://user-images.githubusercontent.com/93550626/161411719-71153f78-778b-4176-9ee5-a9fb8e636b63.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411719-71153f78-778b-4176-9ee5-a9fb8e636b63.png" width = 900 height = 400 >     
+
+<p>     
 
 ## 4.3 Novas mortes (diário)
+    
+<p align="center">    
 
-![Novas_mortes_forecast](https://user-images.githubusercontent.com/93550626/161411729-1b651bd0-2e63-4478-9612-91c27b0bb5a4.png)
+<img src = "https://user-images.githubusercontent.com/93550626/161411729-1b651bd0-2e63-4478-9612-91c27b0bb5a4.png" width = 900 height = 400 >     
+
+<p>     
 
 # 5. Conclusão
 

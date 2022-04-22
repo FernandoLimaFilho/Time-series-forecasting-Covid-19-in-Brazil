@@ -12,7 +12,7 @@ No entanto, o mundo correu atrás das vacinas e hoje, graças à ciência, <b>os
 
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161409341-30b90a01-3a52-4c24-8a64-586cb923f275.png" width = 900 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161409341-30b90a01-3a52-4c24-8a64-586cb923f275.png" width = 900 height = 460 >    
 
 <p>    
     
@@ -155,7 +155,7 @@ Depois disso, começamos a analisar as variáveis individualmente.
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161410896-5700ec6b-a36b-42f1-bff1-b27d0ea47f16.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161410896-5700ec6b-a36b-42f1-bff1-b27d0ea47f16.png" width = 479 height = 360 >    
 <img src = "https://user-images.githubusercontent.com/93550626/161410898-46fb72b6-024c-40c3-bf54-67c475364974.png" width = 650 height = 500 >     
 
 <p>      
@@ -166,8 +166,8 @@ Depois disso, começamos a analisar as variáveis individualmente.
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411011-537ca593-0c61-4e07-8dd5-36e2db0083c2.png" width = 500 height = 400 >    
-<img src = "https://user-images.githubusercontent.com/93550626/161411015-28e7b811-b0e4-4bfd-a25e-726c1be441ed.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411011-537ca593-0c61-4e07-8dd5-36e2db0083c2.png" width = 479 height = 360 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411015-28e7b811-b0e4-4bfd-a25e-726c1be441ed.png" width = 900 height = 460 >     
 
 <p>    
 
@@ -177,8 +177,8 @@ Depois disso, começamos a analisar as variáveis individualmente.
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411034-c824c9dc-3d3b-4fcf-8c6f-db958b0227bc.png" width = 500 height = 400 >    
-<img src = "https://user-images.githubusercontent.com/93550626/161411040-16b2cb15-1297-4abc-aef1-833374597649.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411034-c824c9dc-3d3b-4fcf-8c6f-db958b0227bc.png" width = 479 height = 360 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411040-16b2cb15-1297-4abc-aef1-833374597649.png" width = 900 height = 460 >     
 
 <p>      
 
@@ -186,7 +186,7 @@ Depois disso, começamos a analisar as variáveis individualmente.
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411045-d98c462b-1dcc-484d-9ccb-7cd8e082788d.png" width = 500 height = 400 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411045-d98c462b-1dcc-484d-9ccb-7cd8e082788d.png" width = 479 height = 360 >    
 <img src = "https://user-images.githubusercontent.com/93550626/161411052-3688d71d-e2fc-4a36-8971-435d8d9e04c7.png" width = 650 height = 500 >     
 
 <p>    
@@ -195,8 +195,8 @@ Depois disso, começamos a analisar as variáveis individualmente.
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411056-764710ed-2f4c-411b-9b52-e3df2d3fd52e.png" width = 500 height = 400 >    
-<img src = "https://user-images.githubusercontent.com/93550626/161411061-2c507b4f-c6a9-4e8c-b94c-b6575c54d18e.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411056-764710ed-2f4c-411b-9b52-e3df2d3fd52e.png" width = 479 height = 360 >    
+<img src = "https://user-images.githubusercontent.com/93550626/161411061-2c507b4f-c6a9-4e8c-b94c-b6575c54d18e.png" width = 900 height = 460 >     
 
 <p>       
 
@@ -255,7 +255,7 @@ Agora é só plotar as previsões!!!
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411681-e7029bcd-24ec-49f7-b9a8-97ebb108122c.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411681-e7029bcd-24ec-49f7-b9a8-97ebb108122c.png" width = 900 height = 460 >     
 
 <p>     
 
@@ -263,7 +263,7 @@ Agora é só plotar as previsões!!!
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411719-71153f78-778b-4176-9ee5-a9fb8e636b63.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411719-71153f78-778b-4176-9ee5-a9fb8e636b63.png" width = 900 height = 460 >     
 
 <p>     
 
@@ -271,7 +271,7 @@ Agora é só plotar as previsões!!!
     
 <p align="center">    
 
-<img src = "https://user-images.githubusercontent.com/93550626/161411729-1b651bd0-2e63-4478-9612-91c27b0bb5a4.png" width = 900 height = 400 >     
+<img src = "https://user-images.githubusercontent.com/93550626/161411729-1b651bd0-2e63-4478-9612-91c27b0bb5a4.png" width = 900 height = 460 >     
 
 <p>     
 

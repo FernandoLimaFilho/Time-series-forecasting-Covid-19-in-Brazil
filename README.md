@@ -1,5 +1,5 @@
 # Prevendo novos casos e mortes diárias por covid-19 no Brasil com ML
-## 1. Introdução
+# 1. Introdução
 A pandemia de covid-19 foi muito avassaladora em termos humanitários. Especificamente, no Brasil, perdemos em torno de <b>660 mil pessoas</b>. O vírus foi uma surpresa absurdamente inesperada, fazendo com que houvesse uma certa demora na arquitetação de planos de combate ao Coronavírus e, assim, perdas inimagináveis até então se concretizaram.
 
 <p align="center">
@@ -18,7 +18,7 @@ No entanto, o mundo correu atrás das vacinas e hoje, graças à ciência, <b>os
     
 Nesse sentido, como uma técnica de prevenção contra o Coranavírus, a <b>previsão de novos casos de covid-19 utilizando Machine Learning</b> se torna muito relevante, uma vez que permite os sistemas de saúde se adaptarem ao que virá.
 
-## 2. Objetivos
+# 2. Objetivos
 O presente trabalho tem como um dos principais objetivos, realizar previsões de séries temporais para novos casos e mortes diárias no Brasil. Tal previsão será de 60 dias a partir da seguinte data: 2022/03/17.
 
 # 3. Procedimentos
@@ -202,7 +202,7 @@ Depois disso, começamos a analisar as variáveis individualmente.
 
 * Perdemos muitas pessoas e com certeza não queremos perder mais! Nesse caso, os dados estão caminhando ao nosso favor!
 
-### 3.5 Preparação dos DataFrames para a aplicação do pycaret
+## 3.5 Preparação dos DataFrames para a aplicação do pycaret
 
 Vamos criar 3 DFs, cada um uma coluna de data e uma variável (dentre três: Novos casos (diário), Casos ativos e Novas mortes (diário))
 
@@ -222,7 +222,7 @@ novas_mortes_diarias.set_index("Data", drop = True, inplace = True)
 
 Pronto, estamos prontos para a aplicação do pycaret a fim de realizar previsão de séries temporais. 
 
-### 3.6 Como o pycaret é aplicado?
+## 3.6 Como o pycaret é aplicado?
 #### Exemplo para os novos casos diários
 
 ```bash
